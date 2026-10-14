@@ -1,0 +1,76 @@
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f4f6fb;
+  color: #222;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #2b4c7e;
+  margin-top: 8px;
+}
+
+a {
+  color: #2b4c7e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Cajas ===== */
+.enunciado,
+.resultado {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.enunciado {
+  border-left: 5px solid #2b4c7e;
+}
+
+.resultado {
+  border-left: 5px solid #2e9e6b;
+  font-family: "SF Mono", Consolas, monospace;
+  font-size: 0.95rem;
+}
+
+/* ===== Formularios ===== */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  font: inherit;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #c5cbd8;
+}
+
+button {
+  background: #2b4c7e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1f3a63;
+}
